@@ -1,0 +1,406 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header
+{
+    background:linear-gradient(-32deg, rgb(69, 104, 220), rgb(176, 106, 179));
+    min-height: 100vh;
+}
+.nav-item{
+    padding-right: 6px;
+}
+header .nav-link
+{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+header .nav-link:hover
+{
+    color: wheat;
+
+}
+header .nav-link:focus
+{
+    color: goldenrod;
+    border-top: 1px solid goldenrod;
+}
+.head-content h1
+{
+    font-size: 3.5rem;
+}
+.head-content p{
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.head-content .btn:hover
+{
+    color: #fff;
+    background-color: #4868db;
+    border: 1px solid #4868db;
+}
+@media (min-width:768px) and (max-width:992px)
+{
+    .head-content img
+    {
+        width: 90%;
+    }
+    .head-content .btn
+    {
+        margin-bottom: 13px;
+        
+    }
+}
+/* end header */
+#my-app .paper{
+    color: #5472D2;
+}
+#my-app .btn
+{
+    background-color:#5472D2 ;
+    overflow: hidden;
+}
+#my-app .arrow
+{
+   transform: translateX(50px);
+   color: white;
+   transition: .4s;
+}
+#my-app .btn:hover .arrow
+{
+      transform: translateX(5px);
+}
+span
+{
+    display: inline-block;
+    transition: .4s;
+
+}
+#my-app .btn:hover span
+{
+    transform: translateX(-6px);
+}
+#my-app .btn:hover
+{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+@media (min-width:561px) and (max-width:1200px)
+{
+    #my-app img
+    {
+        width: 90%;
+    }
+}
+/* end #my-app */
+#learn-about
+{
+    background-color: #eee;
+}
+#learn-about .paper{
+    color: #5472D2;
+}
+#learn-about hr{
+    width: 8%;
+}
+
+@media (max-width:560px)
+{
+    #learn-about img 
+    {
+        width: 100%;
+    }
+}
+@media (min-width:561px) and (max-width:1200px)
+{
+    #learn-about img 
+    {
+        width: 90%;
+    }
+
+}
+/* end #learn-about  */
+#video 
+{
+    background-color: #eee;
+}
+#video i
+{
+
+    color: #5472D2;
+}
+#video .video
+{
+    position: relative;
+    background-color: #000;
+}
+
+#video .video .play
+{
+    font-size: 5rem;
+    color: #fff;
+    position: absolute;
+    top: 43%;
+    right: 43%;
+    transition: .5s;
+}
+#video .video:hover .play
+{
+    color: rgb(72, 104, 219);
+
+}
+/* end #video  */
+
+#features .feature-head h3
+{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+#features .feature-head h2
+{
+    color: rgba(72, 104, 219,.25);;
+    font-size:5rem;
+    font-weight: 900;
+}
+#features .feature i{
+    font-size: 2.2rem;
+    border: 2px solid #4868db;
+    padding: .8rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #4868db;
+}
+@media (max-width:768px)
+{
+    #features .feature-head h3
+{
+    font-weight: 900;
+    font-size: 2rem;
+}
+#features .feature-head h2
+{
+    color: rgba(72, 104, 219,.25);;
+    font-size:4rem;
+    font-weight: 900;
+}
+}
+
+#previews
+{
+    background-color: #4868db;
+}
+#previews .preview-head h3
+{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+#previews .preview-head h2
+{
+    color: rgba(255, 255, 255,.25);;
+    font-size:5rem;
+    font-weight: 900;
+}
+
+@media (max-width:768px)
+{
+    #previews .preview-head h3
+{
+    font-weight: 900;
+    font-size: 2rem;
+}
+#previews .preview-head h2
+{
+    color: rgba(255, 255, 255,.25);;
+    font-size: 3.8rem;
+    font-weight: 900;
+}
+}
+#previews i
+{
+    font-size: 2.7rem;
+    color: #fff;    
+}
+#previews .counter-number
+{
+    font-size: 3.6rem;
+    
+}
+#previews p
+{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+/* end #previews */
+
+#testimonials .testimonial-head h3
+{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+#testimonials .testimonial-head h2
+{
+    color: rgba(72, 104, 219,.25);
+    font-size:5rem;
+    font-weight: 900;
+}
+
+@media (max-width:768px)
+{
+    #testimonials .testimonial-head h3
+{
+    font-weight: 900;
+    font-size: 2rem;
+}
+#testimonials .testimonial-head h2
+{
+    color: rgba(72, 104, 219,.25);
+    font-size: 3.8rem;
+    font-weight: 900;
+}
+}
+ p
+{
+    color: #969696;
+}
+#testimonials .card-p
+{
+    background-color: #f4f2f2;
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+}
+#testimonials .card-p::after
+{
+    content: "";
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid #f4f2f2;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: 100%;
+}
+/* end #testimonials */
+footer .demo
+{
+    background-color: #eeeded;
+}
+footer .demo p
+{
+ 
+    font-size: 1.2rem;
+}
+footer .demo .btn1
+{
+    background-color: #4868db;
+    color: #fff;
+}
+footer .demo .btn2
+{
+    border: 1px solid #4868db;
+    color: #4868db;
+}
+footer .demo .btn1:hover
+{
+    background-color: #000;
+}
+footer .demo .btn2:hover
+{
+    color: #fff;
+    background-color: #4868db;
+    border: 1px solid #4868db;
+}
+footer .lists
+{
+    background-color: #e4e2e2;
+}
+footer .lists .list h4
+{
+    color: #4868db;
+    font-size: 1.2rem;
+
+}
+footer .lists .list ul
+{
+
+  list-style-type: none ;
+  padding: 0;
+  margin: 0;
+
+}
+footer .lists .list ul li
+{
+  margin-bottom: 15px;
+
+}
+footer .lists .list ul a
+{
+    text-decoration: none;
+    color: #888;
+}
+footer .lists .list ul a:hover
+{
+    color: #4868db;
+}
+footer .end
+{
+    background-color: #d7d5d5;
+}
+footer .end p span{
+    color: #4868db;
+}
+footer .end .icons i
+{
+    color: #888787;
+    background-color: #c3c0c0;
+    border:1px solid #c3c0c0;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .65s;
+}
+footer .end .icons .fa-facebook-f
+{
+    padding: 10px 15px;
+}
+footer .end .icons i:hover 
+{
+  
+    color: #fff;
+}
+footer .end .icons .fa-facebook-f:hover 
+{
+    background-color: #3b5998 ;
+
+}
+footer .end .icons .fa-google:hover 
+{
+    background-color: #dd370e ;
+
+}
+footer .end .icons .fa-linkedin-in:hover 
+{
+    background-color: #0275d8 ;
+
+}
+footer .end .icons .fa-twitter:hover 
+{
+    background-color: #00aced  ;
+
+}
+@media (max-width:767px)
+{
+    footer .end .col-md-6
+    {
+        display: flex;
+        justify-content: center !important;
+
+    }
+}
